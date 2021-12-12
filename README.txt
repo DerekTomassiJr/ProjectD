@@ -1,7 +1,8 @@
-Project B
+Project D
 Derek Tomassi
-Due: 10/28/21 @ 11:59pm
 
-1) For this project I was unable to find a partner so I unfortunately worked alone. So I did everything in the project all 5 steps
+1) Just like the previous Projects I did all of this alone
 
-2) In my kernel.c I have the code in the main function to test all the steps they are just commented out. To verify each step you can just uncomment the code for each step you want to test.
+Some things to note about my code.
+  For some reason with the copy command I couldn't get it to work with shell, but it would work for any other file. It works if I hard code the String "shell" into the function, but there was a problem with the variable pass through and when attempting to fix it I just broke it and no file worked. So I brought it back to the old way I had it and it works for everything except shell.
+  With the create textfl command I having working well the only thing is I had a problem with finding the end of a line. To fix that (I also state this in my command line) you need to put a | character at the end of each line to indicate the end of your line.

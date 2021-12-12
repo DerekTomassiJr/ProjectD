@@ -1,0 +1,4 @@
+DiskA /home/derek/Desktop/ProjectD/message.txt
+DiskC /home/derek/Desktop/ProjectD/diskc.img 0 63 255 1000
+ROM resource/bios.bin
+VideoROM resource/vgabios.bin

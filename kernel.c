@@ -35,8 +35,9 @@ char* readString(char* line) {
 		line[i] = chars;
 		i++;
 		chars = interrupt(0x16, 0, 0, 0, 0);
+        interrupt(0x10, 0xe*256+chars, 0, 0, 0);
 		if (chars == 0x8 && i > 0) {
-                        printString(chars);
+                        //printString(chars);
                 } else if (i < 1) {
                         printString("Array Out of Bounds Error!");
                 }
